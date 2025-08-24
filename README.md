@@ -28,3 +28,11 @@ Key findings:
 - Multimodal models performed competitively but did not surpass the best text-only systems.  
 
 ---
+
+
+## Architecture
+<p align="center">
+  <img src="figures/figure1.png" alt="Overall Architecture" width="700"/>
+</p>
+
+---
