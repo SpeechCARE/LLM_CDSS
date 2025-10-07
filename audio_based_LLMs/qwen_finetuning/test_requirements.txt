@@ -1,0 +1,10 @@
+pandas>=1.3.0
+soundfile>=0.10.0
+torch>=2.0.0
+transformers>=4.30.0
+scikit-learn>=1.0.0
+numpy>=1.21.0
+tqdm>=4.60.0
+qwen-omni-utils
+qwen-vl-utils
+openpyxl>=3.0.0 
