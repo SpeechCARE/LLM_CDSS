@@ -2,7 +2,7 @@
 
 <!-- [![Paper](https://img.shields.io/badge/paper-arXiv-blue)](link_to_paper) -->
 
-## 🧠 Overview
+## Overview
 
 This repository accompanies our paper:  
 **Speech-Based Cognitive Screening: A Systematic Evaluation of LLM Adaptation Strategies**
@@ -13,21 +13,23 @@ The experiments span two main components:
 - 📝 **Text-Based LLMs** — models operating on *transcripts only*  
 - 🎧 **Audio-Based (Multimodal) LLMs** — models using *paired audio + transcripts*
 
+In addition, external generalizability was evaluated on the **DementiaBank Delaware Dataset**.
+
 Each subdirectory contains its own README with detailed setup, methods, and evaluation results.
 
 ---
 
-## 🧩 Abstract
+## Abstract
 
 Over half of adults with Alzheimer’s disease and related dementias (ADRD) remain undiagnosed.  
-Speech-based screening with LLMs offers a scalable alternative, but the comparative value of **different adaptation strategies** is not well understood.
+Speech-based screening with LLMs offers a scalable solution, but the comparative value of **different adaptation strategies** is not well understood.
 
 We evaluate multiple **LLM families and adaptation strategies** for cognitive impairment detection across **text-only** and **multimodal (audio + text)** input types:
 
-- **In-Context Learning (ICL)** – with four demonstration selection strategies (*most similar, least similar, prototype, random*)  
-- **Reasoning-Augmented Prompting** – including *self-/teacher-generated rationales*, *self-consistency*, and *Tree-of-Thought (ToT)* with domain-expert roles  
-- **Parameter-Efficient Fine-Tuning** – comparing *token-level supervision* vs *classification-head adaptation*  
-- **Multimodal Integration** – using models capable of processing *audio–transcript pairs*
+1. **In-Context Learning (ICL)** – with four demonstration selection strategies (*most similar, least similar, average to class centroids/prototype, random*)  
+2. **Reasoning-Augmented Prompting** – including *self-/teacher-generated rationales*, *self-consistency*, and *Tree-of-Thought (ToT)* with domain-expert roles  
+3. **Parameter-Efficient Fine-Tuning** – comparing *token-level supervision* vs *classification-head adaptation*  
+4. **Multimodal Integration** – using models capable of processing *audio–transcript pairs*
 
 ### 🔍 Key Findings
 
@@ -61,7 +63,7 @@ We evaluate multiple **LLM families and adaptation strategies** for cognitive im
 
 ---
 
-## 🧩 Architecture
+## Architecture
 
 <p align="center">
   <img src="figures/figure1.png" alt="Overall Architecture" width="700"/>
