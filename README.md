@@ -57,6 +57,9 @@ We evaluate multiple **LLM families and adaptation strategies** for cognitive im
 │ ├── qwen_finetuning/
 │ └── phi_finetuning/
 
+├── External Generalizability/   # External Generalizability Evaluated on Delaware
+│ └──README.md 
+
 └── figures/
 └── figure1.png                  # Architecture overview
 </pre>
