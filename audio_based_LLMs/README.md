@@ -1,4 +1,4 @@
-# Component 4 – Evaluating Multimodal LLMs as Classifier (Audio + Transcripts)
+# Component 4 – Evaluating Multimodal LLMs as Classifiera (Audio + Transcripts)
 
 This section evaluates **multimodal LLMs** on paired **audio + transcript** inputs for **binary cognitive-status classification** (*Cognitively healthy* vs *Cognitively impaired*), in **zero-shot** and **fine-tuned** settings. We implement and release reproducible code for **Qwen 2.5 Omni** and **Phi-4 Multimodal**; **GPT-4o Mini** is evaluated zero-shot via API.
 
@@ -15,7 +15,7 @@ This section evaluates **multimodal LLMs** on paired **audio + transcript** inpu
 
 ### 🔹 Models Evaluated (Audio + Text)
 
-- **GPT-4o Mini** *(API; closed-weight)* – **zero-shot only** (`temperature = 0`).
+- **GPT-4o Mini** *(API; closed-weight)* – **zero-shot only** (`temperature=0`).
 - **Qwen 2.5 Omni** *(open-weight)* – zero-shot (**HF defaults:** `temperature=1.0`, `top-k=50`, `top-p=1.0`) and **LoRA fine-tuning** via **LLaMA-Factory**.
 - **Phi-4 Multimodal** *(open-weight)* – zero-shot (same HF defaults) and **LoRA fine-tuning** with **grid search** over epochs, gradient accumulation, and audio length.  
 - **Model selection:** Best **validation F1 (impaired class)**.
