@@ -98,56 +98,56 @@ Reasoning and fine-tuning strengthen linguistic and clinical sensitivity in smal
 
 ### 1. **`component1_ICL.ipynb`**
 
-Implements all In-Context Learning (ICL) baseline methods using retrieved examples.  
-Loads and preprocesses datasets from Excel/CSV formats for classification tasks.  
-Generates text embeddings with Sentence-Transformers and builds FAISS vector indices.  
-Retrieves top-k similar examples per query to form ICL demonstration prompts.  
-Interfaces with large language models (e.g., LLaMA or OpenAI GPT) for prediction via ICL.  
-Evaluates model outputs using accuracy and visualization metrics for performance comparison.  
+* Implements all In-Context Learning (ICL) baseline methods using retrieved examples.  
+* Loads and preprocesses datasets from Excel/CSV formats for classification tasks.  
+* Generates text embeddings with Sentence-Transformers and builds FAISS vector indices.  
+* Retrieves top-k similar examples per query to form ICL demonstration prompts.  
+* Interfaces with large language models (e.g., LLaMA or OpenAI GPT) for prediction via ICL.  
+* Evaluates model outputs using accuracy and visualization metrics for performance comparison.  
 
 
 ### 2. **`component2_ICL_reasoningBased_methods.ipynb`**
 
-Implements reasoning-based extensions of In-Context Learning (ICL) methods.  
-Integrates models for reasoning-augmented inference.  
-Generates and attaches rationales (self-generated or teacher-provided) to ICL examples.  
-Constructs reasoning-ICL prompts using consistent rationale templates.  
-Runs self-consistency inference with multiple decoding temperatures.  
-Implements Tree-of-Thought (ToT) prompting for multi-step reasoning exploration.  
-Evaluates reasoning-augmented predictions using accuracy and comparative metrics across setups.  
+* Implements reasoning-based extensions of In-Context Learning (ICL) methods.  
+* Integrates models for reasoning-augmented inference.  
+* Generates and attaches rationales (self-generated or teacher-provided) to ICL examples.  
+* Constructs reasoning-ICL prompts using consistent rationale templates.  
+* Runs self-consistency inference with multiple decoding temperatures.  
+* Implements Tree-of-Thought (ToT) prompting for multi-step reasoning exploration.  
+* Evaluates reasoning-augmented predictions using accuracy and comparative metrics across setups.  
 
 
 ### 3. **`component3_1_tokenBased_finetuning_GPT.ipynb`**
 
-Implements token-level fine-tuning workflow using GPT models for classification.  
-Defines expert system and task-specific prompts for cognitive health analysis.  
-Loads and preprocesses transcript datasets (train, validation, test) for model training.  
-Formats data into JSONL for supervised fine-tuning with OpenAI GPT APIs.  
-Executes fine-tuning procedure with prompt-response pairs to optimize classification behavior.  
-Evaluates fine-tuned model performance using F1-score, precision, recall, and confusion matrices.  
+* Implements token-level fine-tuning workflow using GPT models for classification.  
+* Defines expert system and task-specific prompts for cognitive health analysis.  
+* Loads and preprocesses transcript datasets (train, validation, test) for model training.  
+* Formats data into JSONL for supervised fine-tuning with OpenAI GPT APIs.  
+* Executes fine-tuning procedure with prompt-response pairs to optimize classification behavior.  
+* Evaluates fine-tuned model performance using F1-score, precision, recall, and confusion matrices.  
 
 
 ### 4. **`component3_1_tokenBased_finetuning_openWeightModels.ipynb`**
 
-Implements token-level fine-tuning for open-weight language models using Hugging Face Transformers.  
-Installs and configures libraries for efficient training (Transformers, PEFT, TRL, BitsAndBytes, Accelerate).  
-Loads and tokenizes datasets for cognitive state classification tasks.  
-Applies LoRA and PEFT adapters for parameter-efficient fine-tuning on limited resources.  
-Configures training pipelines with quantization and supervised fine-tuning (SFT) setups.  
-Monitors performance using accuracy, F1-score, precision, recall, and confusion matrices.  
-Saves and logs fine-tuned checkpoints for downstream evaluation and deployment.  
+* Implements token-level fine-tuning for open-weight language models using Hugging Face Transformers.  
+* Installs and configures libraries for efficient training (Transformers, PEFT, TRL, BitsAndBytes, Accelerate).  
+* Loads and tokenizes datasets for cognitive state classification tasks.  
+* Applies LoRA and PEFT adapters for parameter-efficient fine-tuning on limited resources.  
+* Configures training pipelines with quantization and supervised fine-tuning (SFT) setups.  
+* Monitors performance using accuracy, F1-score, precision, recall, and confusion matrices.  
+* Saves and logs fine-tuned checkpoints for downstream evaluation and deployment.  
 
 
 
 ### 5. **`component3_2_classificationHead_finetuning.ipynb`**
 
-Implements fine-tuning using a classification head on top of pretrained transformer models.  
-Installs and configures libraries for transformer-based supervised training (Transformers, TRL, PEFT, PyTorch).  
-Loads text datasets and prepares them for binary cognitive state classification.  
-Attaches a lightweight classification layer (linear head) to pretrained embeddings.  
-Trains the model end-to-end with mixed precision, quantization, and LoRA adapters for efficiency.  
-Evaluates model performance using accuracy, balanced accuracy, F1-score, precision, recall, and confusion matrix.  
-Saves fine-tuned model weights and training configurations for downstream evaluation and reproducibility.  
+* Implements fine-tuning using a classification head on top of pretrained transformer models.  
+* Installs and configures libraries for transformer-based supervised training (Transformers, TRL, PEFT, PyTorch).  
+* Loads text datasets and prepares them for binary cognitive state classification.  
+* Attaches a lightweight classification layer (linear head) to pretrained embeddings.  
+* Trains the model end-to-end with mixed precision, quantization, and LoRA adapters for efficiency.  
+* Evaluates model performance using accuracy, balanced accuracy, F1-score, precision, recall, and confusion matrix.  
+* Saves fine-tuned model weights and training configurations for downstream evaluation and reproducibility.  
 
 ---
 
