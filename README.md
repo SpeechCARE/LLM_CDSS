@@ -33,7 +33,7 @@ We evaluate multiple **LLM families and adaptation strategies** for cognitive im
 
 ### 🔍 Key Findings
 
-- 🧩 *Prototype (similarity to class centeroids) demonstrations* achieved the best ICL results (F1 up to **0.81**).  
+- 🧩 *Prototype (similarity to class centroids) demonstrations* achieved the best ICL results (F1 up to **0.81**).  
 - 💭 *Reasoning augmentation* improved smaller models (e.g., LLaMA-8B: **0.72 → 0.76**).  
 - 🔧 *Token-level fine-tuning* consistently yielded top scores (F1 up to **0.83**).  
 - 🧠 *Classification heads* helped weaker models under token-level setups.  
