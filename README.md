@@ -5,7 +5,7 @@
 ## Overview
 
 This repository accompanies our paper:  
-**Speech-Based Cognitive Screening: A Systematic Evaluation of LLM Adaptation Strategies**
+**Large language model adaptation strategies in speech-based cognitive screening: Systematic evaluation**
 
 We systematically evaluate **large language model (LLM)** adaptation strategies for detecting **Alzheimer’s disease and related dementias (ADRD)** using the **DementiaBank** speech corpus.  
 The experiments span two main components:
@@ -78,18 +78,22 @@ We evaluate multiple **LLM families and adaptation strategies** for cognitive im
 
 If you use this repository or our results in your research, please cite:
 
-> **Speech-Based Cognitive Screening: A Systematic Evaluation of LLM Adaptation Strategies**  
+> **Large language model adaptation strategies in speech-based cognitive screening: Systematic evaluation**  
 > *Fatemeh Taherinezhad, Mohamad Javad Momeni Nezhad, Sepehr Karimi, Sina Rashidi, Ali Zolnour, Maryam Dadkhah, Yasaman Haghbin, Hossein AzadMaleki, Maryam Zolnoori*  
-> *arXiv preprint arXiv:2509.03525 (2025)*  
-> [https://arxiv.org/abs/2509.03525](https://arxiv.org/abs/2509.03525)
+> *JMIR AI (2026)*  
+> [https://ai.jmir.org/2026/1/e82608/](https://ai.jmir.org/2026/1/e82608/)
 
 BibTeX:
 ```bibtex
-@article{taherinezhad2025speech,
-  title={Speech-Based Cognitive Screening: A Systematic Evaluation of LLM Adaptation Strategies},
-  author={Taherinezhad, Fatemeh and Nezhad, Mohamad Javad Momeni and Karimi, Sepehr and Rashidi, Sina and Zolnour, Ali and Dadkhah, Maryam and Haghbin, Yasaman and AzadMaleki, Hossein and Zolnoori, Maryam},
-  journal={arXiv preprint arXiv:2509.03525},
-  year={2025}
+@article{taherinezhad2026large,
+  title={Large language model adaptation strategies in speech-based cognitive screening: Systematic evaluation},
+  author={Taherinezhad, Fatemeh and Nezhad, Mohamad Javad Momeni and Karimi, Sepehr and Rashidi, Sina and Zolnour, Ali and Dadkhah, Maryam and Haghbin, Yasaman and Azadmaleki, Hossein and Zolnoori, Maryam},
+  journal={JMIR AI},
+  volume={5},
+  number={1},
+  pages={e82608},
+  year={2026},
+  publisher={JMIR Publications Inc., Toronto, Canada}
 }
 ```
 
@@ -99,4 +103,3 @@ BibTeX:
 
 This repository is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.  
 You are free to share and adapt this work, provided that appropriate credit is given.  
-See the [LICENSE](LICENSE) file for details.
