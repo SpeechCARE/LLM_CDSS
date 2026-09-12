@@ -80,8 +80,8 @@ If you use this repository or our results in your research, please cite:
 
 > **Large language model adaptation strategies in speech-based cognitive screening: Systematic evaluation**  
 > *Fatemeh Taherinezhad, Mohamad Javad Momeni Nezhad, Sepehr Karimi, Sina Rashidi, Ali Zolnour, Maryam Dadkhah, Yasaman Haghbin, Hossein AzadMaleki, Maryam Zolnoori*  
-> *JMIR AI (2026)*  
-> [https://ai.jmir.org/2026/1/e82608/](https://ai.jmir.org/2026/1/e82608/)
+> *JMIR AI, vol. 5, p. e82608, Mar. 2026.*  
+> Available: [https://doi.org/10.2196/82608](https://doi.org/10.2196/82608)
 
 BibTeX:
 ```bibtex
