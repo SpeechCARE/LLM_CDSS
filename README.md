@@ -1,4 +1,4 @@
-# Speech-Based Cognitive Screening: A Systematic Evaluation of LLM Adaptation Strategies
+# Large language model adaptation strategies in speech-based cognitive screening: Systematic evaluation
 
 <!-- [![Paper](https://img.shields.io/badge/paper-arXiv-blue)](link_to_paper) -->
 
